@@ -69,6 +69,7 @@ header{
     background-image: url('images/header_bg.png');
     background-repeat: no-repeat;
     background-position: right bottom;
+   
     
     
 }
@@ -117,9 +118,14 @@ font-size: 18px;
 font-weight: 400;
 line-height: 30px;
 background-size: width: 909px;
+background-color: #FFF8F3;
 
 
 }
 #body{
     padding: 0px 230px;
+    padding-top: 30px;
+}
+.bg{
+    background-color: #FFF8F3;
 }
