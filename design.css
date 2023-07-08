@@ -10,6 +10,8 @@ body{
 /* nev related style here */
 nav{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 #nav-tittle{
     color: #181818;
@@ -17,11 +19,20 @@ nav{
     font-weight: 800;
 
 }
+#only{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    width: 150px;
+    height: 64px;
+    padding: 18px 36 px;
+}
 .orange-color{
   color: #FD6E0A; 
 }
 nav>ul{
     display: flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
