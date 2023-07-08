@@ -1,6 +1,7 @@
 /* shared style */
 body{
     font-family: 'Open Sans', sans-serif;
+    
 }
 .primary-btn{
     border-radius: 5px;
@@ -13,12 +14,26 @@ nav{
     justify-content: space-between;
     align-items: center;
     background-color: #FFF8F3;
+    margin: 0px 200px; */
+    padding-right: 30px;
+    /* padding: 0px 150px; */
 }
 #nav-tittle{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-    margin: 0px 200px;
+    /* margin: ; */
+
+}
+#contact{
+    width: 160px;
+    height: 64px;
+    color: #FD6E0A;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    border-color: #FD6E0A;
+    margin-left: 35px;
 
 }
 #only{
@@ -27,7 +42,7 @@ nav{
     font-weight: 700;
     width: 150px;
     height: 64px;
-    padding: 18px 36 px;
+    /* padding: 18px 36 px; */
 }
 .orange-color{
   color: #FD6E0A; 
@@ -50,4 +65,17 @@ nav a{
 header{
     background-color: #FFF8F3;
     
+}
+.banner{
+    /* padding 30px 30px 30px 150px;  */
+    display: flex;
+    align-items: center;
+}
+#profile{
+    width: 400px;
+    height: 500px;
+    /* background: url(<path-to-image>), lightgray -192.573px 0px / 173.656% 100% no-repeat; */
+}
+#text{
+    padding-left: 150px;
 }
