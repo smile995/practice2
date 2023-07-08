@@ -12,11 +12,13 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFF8F3;
 }
 #nav-tittle{
     color: #181818;
     font-size: 45px;
     font-weight: 800;
+    margin: 0px 200px;
 
 }
 #only{
@@ -44,4 +46,8 @@ nav a{
     font-size: 20px;
     font-weight: 400;
 
+}
+header{
+    background-color: #FFF8F3;
+    
 }
