@@ -1,5 +1,36 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    background-color: antiquewhite;
+/* shared style */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.primary-btn{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0px;
+}
+/* nev related style here */
+nav{
+    display: flex;
+}
+#nav-tittle{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.orange-color{
+  color: #FD6E0A; 
+}
+nav>ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+
 }
